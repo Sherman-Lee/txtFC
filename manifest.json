@@ -4,7 +4,7 @@
     "name": "txtFC",
     "scope": "/",
     "display": "fullscreen",
-    "start_url": "https://txtfc-a6fe4.firebaseapp.com/",
+    "start_url": "https://sherman-lee.github.io/txtFC/",
     "short_name": "txtFC",
     "theme_color": "transparent",
     "description": "A text emoticon copy-N-paste PWA",
