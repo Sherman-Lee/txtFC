@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" name="viewport" content="width=device-width, initial-scale=1">
+    <title>txtFC</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="./css/material-wfont.css" rel="stylesheet">
+    <link href="./css/bootstrap-responsive.css" rel="stylesheet">
+    <link rel="manifest" href="manifest.json"></link>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/5.3.0/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <!--script defer src="/__/firebase/5.3.0/firebase-auth.js"></script>
+    <script defer src="/__/firebase/5.3.0/firebase-database.js"></script>
+    <script defer src="/__/firebase/5.3.0/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/5.3.0/firebase-storage.js"></script-->
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+  </head>
+  <body>
+    <div class="tab-content">
+    <div class="tab-pane container active" id="faces">
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="26" data-clipboard-text="( ͡° ͜ʖ ͡°)" data-original-title="" title="">
+    ( ͡° ͜ʖ ͡°)
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="15" data-clipboard-text="¯\_(ツ)_/¯" data-original-title="" title="">
+    ¯\_(ツ)_/¯
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="106" data-clipboard-text="̿̿ ̿̿ ̿̿ ̿&#39;̿&#39;\̵͇̿̿\з= ( ▀ ͜͞ʖ▀) =ε/̵͇̿̿/’̿’̿ ̿ ̿̿ ̿̿ ̿̿" data-original-title="" title="">
+     ̿̿ ̿̿ ̿̿ ̿'̿'\̵͇̿̿\з= ( ▀ ͜͞ʖ▀) =ε/̵͇̿̿/’̿’̿ ̿ ̿̿ ̿̿ ̿̿
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="127" data-clipboard-text="▄︻̷̿┻̿═━一" data-original-title="" title="">
+    ▄︻̷̿┻̿═━一
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="27" data-clipboard-text="( ͡°( ͡° ͜ʖ( ͡° ͜ʖ ͡°)ʖ ͡°) ͡°)" data-original-title="" title="">
+    ( ͡°( ͡° ͜ʖ( ͡° ͜ʖ ͡°)ʖ ͡°) ͡°)
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="72" data-clipboard-text="ʕ•ᴥ•ʔ" data-original-title="" title="">
+    ʕ•ᴥ•ʔ
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="78" data-clipboard-text="(▀̿Ĺ̯▀̿ ̿)" data-original-title="" title="">
+    (▀̿Ĺ̯▀̿ ̿)
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="91" data-clipboard-text="(ง ͠° ͟ل͜ ͡°)ง" data-original-title="" title="">
+    (ง ͠° ͟ل͜ ͡°)ง
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="58" data-clipboard-text="༼ つ ◕_◕ ༽つ" data-original-title="" title="">
+    ༼ つ ◕_◕ ༽つ
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="116" data-clipboard-text="ಠ_ಠ" data-original-title="" title="">
+    ಠ_ಠ
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="50" data-clipboard-text="(づ｡◕‿‿◕｡)づ" data-original-title="" title="">
+    (づ｡◕‿‿◕｡)づ
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="105" data-clipboard-text="̿&#39;̿&#39;\̵͇̿̿\з=( ͠° ͟ʖ ͡°)=ε/̵͇̿̿/&#39;̿̿ ̿ ̿ ̿ ̿ ̿" data-original-title="" title="">
+    ̿'̿'\̵͇̿̿\з=( ͠° ͟ʖ ͡°)=ε/̵͇̿̿/'̿̿ ̿ ̿ ̿ ̿ ̿
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="46" data-clipboard-text="(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ ✧ﾟ･: *ヽ(◕ヮ◕ヽ)" data-original-title="" title="">
+    (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ ✧ﾟ･: *ヽ(◕ヮ◕ヽ)
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="76" data-clipboard-text="[̲̅$̲̅(̲̅5̲̅)̲̅$̲̅]" data-original-title="" title="">
+    [̲̅$̲̅(̲̅5̲̅)̲̅$̲̅]
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="11" data-clipboard-text="┬┴┬┴┤ ͜ʖ ͡°) ├┬┴┬┴" data-original-title="" title="">
+    ┬┴┬┴┤ ͜ʖ ͡°) ├┬┴┬┴
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="28" data-clipboard-text="( ͡°╭͜ʖ╮͡° )" data-original-title="" title="">
+    ( ͡°╭͜ʖ╮͡° )
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="33" data-clipboard-text="(͡ ͡° ͜ つ ͡͡°)" data-original-title="" title="">
+    (͡ ͡° ͜ つ ͡͡°)
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="95" data-clipboard-text="(• ε •)" data-original-title="" title="">
+    (• ε •)
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="38" data-clipboard-text="(ง&#39;̀-&#39;́)ง" data-original-title="" title="">
+    (ง'̀-'́)ง
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="124" data-clipboard-text="(ಥ﹏ಥ)" data-original-title="" title="">
+    (ಥ﹏ಥ)
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="86" data-clipboard-text="﴾͡๏̯͡๏﴿ O&#39;RLY?" data-original-title="" title="">
+    ﴾͡๏̯͡๏﴿ O'RLY?
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="122" data-clipboard-text="(ノಠ益ಠ)ノ彡┻━┻" data-original-title="" title="">
+    (ノಠ益ಠ)ノ彡┻━┻
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="51" data-clipboard-text="[̲̅$̲̅(̲̅ ͡° ͜ʖ ͡°̲̅)̲̅$̲̅]" data-original-title="" title="">
+    [̲̅$̲̅(̲̅ ͡° ͜ʖ ͡°̲̅)̲̅$̲̅]
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="45" data-clipboard-text="(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧" data-original-title="" title="">
+    (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="43" data-clipboard-text="(☞ﾟ∀ﾟ)☞" data-original-title="" title="">
+    (☞ﾟ∀ﾟ)☞
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="10" data-clipboard-text="| (• ◡•)| (❍ᴥ❍ʋ)" data-original-title="" title="">
+    | (• ◡•)| (❍ᴥ❍ʋ)
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="42" data-clipboard-text="(◕‿◕✿)" data-original-title="" title="">
+    (◕‿◕✿)
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="41" data-clipboard-text="(ᵔᴥᵔ)" data-original-title="" title="">
+    (ᵔᴥᵔ)
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="85" data-clipboard-text="(╯°□°)╯︵ ʞooqǝɔɐɟ" data-original-title="" title="">
+    (╯°□°)╯︵ ʞooqǝɔɐɟ
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="22" data-clipboard-text="(¬‿¬)" data-original-title="" title="">
+    (¬‿¬)
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="44" data-clipboard-text="(☞ﾟヮﾟ)☞ ☜(ﾟヮﾟ☜)" data-original-title="" title="">
+    (☞ﾟヮﾟ)☞ ☜(ﾟヮﾟ☜)
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="75" data-clipboard-text="(づ￣ ³￣)づ" data-original-title="" title="">
+    (づ￣ ³￣)づ
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="111" data-clipboard-text="ლ(ಠ益ಠლ)" data-original-title="" title="">
+    ლ(ಠ益ಠლ)
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="117" data-clipboard-text="ಠ╭╮ಠ" data-original-title="" title="">
+    ಠ╭╮ಠ
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="107" data-clipboard-text="̿ ̿ ̿&#39;̿&#39;\̵͇̿̿\з=(•_•)=ε/̵͇̿̿/&#39;̿&#39;̿ ̿" data-original-title="" title="">
+    ̿ ̿ ̿'̿'\̵͇̿̿\з=(•_•)=ε/̵͇̿̿/'̿'̿ ̿
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="17" data-clipboard-text="/╲/\╭( ͡° ͡° ͜ʖ ͡° ͡°)╮/\╱\" data-original-title="" title="">
+     /╲/\╭( ͡° ͡° ͜ʖ ͡° ͡°)╮/\╱\
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="101" data-clipboard-text="(;´༎ຶД༎ຶ`)" data-original-title="" title="">
+    (;´༎ຶД༎ຶ`)
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="53" data-clipboard-text="♪~ ᕕ(ᐛ)ᕗ" data-original-title="" title="">
+    ♪~ ᕕ(ᐛ)ᕗ
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="69" data-clipboard-text="♥‿♥" data-original-title="" title="">
+    ♥‿♥
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="56" data-clipboard-text="༼ つ  ͡° ͜ʖ ͡° ༽つ" data-original-title="" title="">
+    ༼ つ ͡° ͜ʖ ͡° ༽つ
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="125" data-clipboard-text="༼ つ ಥ_ಥ ༽つ" data-original-title="" title="">
+    ༼ つ ಥ_ಥ ༽つ
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="35" data-clipboard-text="(╯°□°）╯︵ ┻━┻" data-original-title="" title="">
+    (╯°□°）╯︵ ┻━┻
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="30" data-clipboard-text="( ͡ᵔ ͜ʖ ͡ᵔ )" data-original-title="" title="">
+    ( ͡ᵔ ͜ʖ ͡ᵔ )
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="61" data-clipboard-text="ヾ(⌐■_■)ノ♪" data-original-title="" title="">
+    ヾ(⌐■_■)ノ♪
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="6" data-clipboard-text="~(˘▾˘~)" data-original-title="" title="">
+    ~(˘▾˘~)
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="59" data-clipboard-text="◉_◉" data-original-title="" title="">
+    ◉_◉
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="52" data-clipboard-text="\ (•◡•) /" data-original-title="" title="">
+    \ (•◡•) /
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="20" data-clipboard-text="(~˘▾˘)~" data-original-title="" title="">
+    (~˘▾˘)~
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="79" data-clipboard-text="(._.) ( l: ) ( .-. ) ( :l ) (._.)" data-original-title="" title="">
+    (._.) ( l: ) ( .-. ) ( :l ) (._.)
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="93" data-clipboard-text="༼ʘ̚ل͜ʘ̚༽" data-original-title="" title="">
+    ༼ʘ̚ل͜ʘ̚༽
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="87" data-clipboard-text="༼ ºل͟º ༼ ºل͟º ༼ ºل͟º ༽ ºل͟º ༽ ºل͟º ༽" data-original-title="" title="">
+    ༼ ºل͟º ༼ ºل͟º ༼ ºل͟º ༽ ºل͟º ༽ ºل͟º ༽
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="12" data-clipboard-text="┬┴┬┴┤(･_├┬┴┬┴" data-original-title="" title="">
+    ┬┴┬┴┤(･_├┬┴┬┴
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="65" data-clipboard-text="ᕙ(⇀‸↼‶)ᕗ" data-original-title="" title="">
+    ᕙ(⇀‸↼‶)ᕗ
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="83" data-clipboard-text="ᕦ(ò_óˇ)ᕤ" data-original-title="" title="">
+    ᕦ(ò_óˇ)ᕤ
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="102" data-clipboard-text="┻━┻ ︵ヽ(`Д´)ﾉ︵ ┻━┻" data-original-title="" title="">
+    ┻━┻ ︵ヽ(`Д´)ﾉ︵ ┻━┻
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="55" data-clipboard-text="⚆ _ ⚆" data-original-title="" title="">
+    ⚆ _ ⚆
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="36" data-clipboard-text="(•_•) ( •_•)&gt;⌐■-■ (⌐■_■)" data-original-title="" title="">
+    (•_•) ( •_•)&gt;⌐■-■ (⌐■_■)
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="49" data-clipboard-text="(｡◕‿‿◕｡)" data-original-title="" title="">
+    (｡◕‿‿◕｡)
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="123" data-clipboard-text="ಥ_ಥ" data-original-title="" title="">
+    ಥ_ಥ
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="94" data-clipboard-text="ヽ༼ຈل͜ຈ༽ﾉ" data-original-title="" title="">
+    ヽ༼ຈل͜ຈ༽ﾉ
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="71" data-clipboard-text="⌐╦╦═─" data-original-title="" title="">
+    ⌐╦╦═─
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="92" data-clipboard-text="(☞ຈل͜ຈ)☞" data-original-title="" title="">
+    (☞ຈل͜ຈ)☞
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="70" data-clipboard-text="˙ ͜ʟ˙" data-original-title="" title="">
+    ˙ ͜ʟ˙
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="62" data-clipboard-text="☜(˚▽˚)☞" data-original-title="" title="">
+    ☜(˚▽˚)☞
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="98" data-clipboard-text="(•ω•)" data-original-title="" title="">
+    (•ω•)
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="90" data-clipboard-text="(ง°ل͜°)ง" data-original-title="" title="">
+    (ง°ل͜°)ง
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="48" data-clipboard-text="(｡◕‿◕｡)" data-original-title="" title="">
+    (｡◕‿◕｡)
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="81" data-clipboard-text="（╯°□°）╯︵( .o.)" data-original-title="" title="">
+    （╯°□°）╯︵( .o.)
+     </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="16" data-clipboard-text=":&#39;)" data-original-title="" title="">
+    :')
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="14" data-clipboard-text="┬──┬ ノ( ゜-゜ノ)" data-original-title="" title="">
+    ┬──┬ ノ( ゜-゜ノ)
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="96" data-clipboard-text="(っ˘ڡ˘ς)" data-original-title="" title="">
+    (っ˘ڡ˘ς)
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="118" data-clipboard-text="ಠ⌣ಠ" data-original-title="" title="">
+    ಠ⌣ಠ
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="110" data-clipboard-text="ლ(´ڡ`ლ)" data-original-title="" title="">
+    ლ(´ڡ`ლ)
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="24" data-clipboard-text="(°ロ°)☝" data-original-title="" title="">
+    (°ロ°)☝
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="74" data-clipboard-text="｡◕‿‿◕｡" data-original-title="" title="">
+    ｡◕‿‿◕｡
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="121" data-clipboard-text="( ಠ ͜ʖರೃ)" data-original-title="" title="">
+    ( ಠ ͜ʖರೃ)
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="119" data-clipboard-text="╚(ಠ_ಠ)=┐" data-original-title="" title="">
+    ╚(ಠ_ಠ)=┐
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="25" data-clipboard-text="(─‿‿─)" data-original-title="" title="">
+    (─‿‿─)
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="54" data-clipboard-text="ƪ(˘⌣˘)ʃ" data-original-title="" title="">
+    ƪ(˘⌣˘)ʃ
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="128" data-clipboard-text="(；一_一)" data-original-title="" title="">
+    (；一_一)
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="21" data-clipboard-text="(¬_¬)" data-original-title="" title="">
+    (¬_¬)
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="29" data-clipboard-text="( ⚆ _ ⚆ )" data-original-title="" title="">
+    ( ⚆ _ ⚆ )
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="39" data-clipboard-text="(ʘᗩʘ&#39;)" data-original-title="" title="">
+    (ʘᗩʘ')
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="63" data-clipboard-text="☜(⌒▽⌒)☞" data-original-title="" title="">
+    ☜(⌒▽⌒)☞
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="73" data-clipboard-text="｡◕‿◕｡" data-original-title="" title="">
+    ｡◕‿◕｡
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="80" data-clipboard-text="¯\(°_o)/¯" data-original-title="" title="">
+    ¯\(°_o)/¯
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="40" data-clipboard-text="(ʘ‿ʘ)" data-original-title="" title="">
+    (ʘ‿ʘ)
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="109" data-clipboard-text="ლ,ᔑ•ﺪ͟͠•ᔐ.ლ" data-original-title="" title="">
+    ლ,ᔑ•ﺪ͟͠•ᔐ.ლ
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="97" data-clipboard-text="(´・ω・`)" data-original-title="" title="">
+    (´・ω・`)
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="115" data-clipboard-text="ಠ~ಠ" data-original-title="" title="">
+    ಠ~ಠ
+    </button>
+    </div>
+    </div>
+
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="23" data-clipboard-text="(° ͡ ͜ ͡ʖ ͡ °)" data-original-title="" title="">
+    (° ͡ ͜ ͡ʖ ͡ °)
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="84" data-clipboard-text="┬─┬ノ( º _ ºノ)" data-original-title="" title="">
+    ┬─┬ノ( º _ ºノ)
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="99" data-clipboard-text="(´・ω・)っ由" data-original-title="" title="">
+    (´・ω・)っ由
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="120" data-clipboard-text="ಠ_ಥ" data-original-title="" title="">
+    ಠ_ಥ
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="104" data-clipboard-text="Ƹ̵̡Ӝ̵̨̄Ʒ" data-original-title="" title="">
+    Ƹ̵̡Ӝ̵̨̄Ʒ
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="108" data-clipboard-text="(&gt;ლ)" data-original-title="" title="">
+    (&gt;ლ)
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="113" data-clipboard-text="ಠ‿↼" data-original-title="" title="">
+    ಠ‿↼
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="67" data-clipboard-text="ʘ‿ʘ" data-original-title="" title="">
+    ʘ‿ʘ
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="112" data-clipboard-text="(ღ˘⌣˘ღ)" data-original-title="" title="">
+    (ღ˘⌣˘ღ)
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="114" data-clipboard-text="ಠoಠ" data-original-title="" title="">
+    ಠoಠ
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="126" data-clipboard-text="ರ_ರ" data-original-title="" title="">
+    ರ_ರ
+    </button>
+    </div>
+    <div class="col-md-6 face">
+     <button class="facebtn center-block btn-material btn-material-default " face-id="47" data-clipboard-text="(▰˘◡˘▰)" data-original-title="" title="">
+    (▰˘◡˘▰)
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="68" data-clipboard-text="◔̯◔" data-original-title="" title="">
+    ◔̯◔
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="57" data-clipboard-text="◔ ⌣ ◔" data-original-title="" title="">
+    ◔ ⌣ ◔
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="34" data-clipboard-text="(✿´‿`)" data-original-title="" title="">
+    (✿´‿`)
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="9" data-clipboard-text="¬_¬" data-original-title="" title="">
+    ¬_¬
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="89" data-clipboard-text="ب_ب" data-original-title="" title="">
+    ب_ب
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="103" data-clipboard-text="｡゜(｀Д´)゜｡" data-original-title="" title="">
+    ｡゜(｀Д´)゜｡
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="82" data-clipboard-text="(ó ì_í)=óò=(ì_í ò)" data-original-title="" title="">
+    (ó ì_í)=óò=(ì_í ò)
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="100" data-clipboard-text="°Д°" data-original-title="" title="">
+    °Д°
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="31" data-clipboard-text="( ﾟヮﾟ)" data-original-title="" title="">
+    ( ﾟヮﾟ)
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="13" data-clipboard-text="┬─┬﻿ ︵ /(.□. ）" data-original-title="" title="">
+    ┬─┬﻿ ︵ /(.□. ）
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="77" data-clipboard-text="٩◔̯◔۶" data-original-title="" title="">
+    ٩◔̯◔۶
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="66" data-clipboard-text="≧☉_☉≦" data-original-title="" title="">
+    ≧☉_☉≦
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="60" data-clipboard-text="☼.☼" data-original-title="" title="">
+    ☼.☼
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="19" data-clipboard-text="(~_^)" data-original-title="" title="">
+    (~_^)
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="129" data-clipboard-text="(&gt;人&lt;)" data-original-title="" title="">
+    (&gt;人&lt;)
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="64" data-clipboard-text="〆(・∀・＠)" data-original-title="" title="">
+    〆(・∀・＠)
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="8" data-clipboard-text="&gt;_&gt;" data-original-title="" title="">
+    &gt;_&gt;
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="32" data-clipboard-text="(/) (°,,°) (/)" data-original-title="" title="">
+    (/) (°,,°) (/)
+    </button>
+     </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="1" data-clipboard-text="^̮^" data-original-title="" title="">
+    ^̮^
+    </button>
+    </div>
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="88" data-clipboard-text="=U" data-original-title="" title="">
+    =U
+    </button>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 face">
+    <button class="facebtn center-block btn-material btn-material-default " face-id="37" data-clipboard-text="(･.◤)" data-original-title="" title="">
+    (･.◤)
+    </button>
+    </div>
+    </div>
+
+    <script src="./dist/clipboard.min.js"></script>
+    <script>
+      var clipboard = new ClipboardJS('.facebtn');
+      clipboard.on('success', function(e) {
+          console.log(e);
+      });
+      clipboard.on('error', function(e) {
+          console.log(e);
+      });
+    </script>
+
+    <script>
+      if (navigator.serviceWorker.controller) {
+        console.log('[PWA Builder] active service worker found, no need to register')
+      } else {
+        //Register the ServiceWorker
+        navigator.serviceWorker.register('pwabuilder-sw.js', {
+          scope: './'
+        }).then(function(reg) {
+          console.log('Service worker has been registered for scope:'+ reg.scope);
+        });
+      }
+    </script>
+  </body>
+</html>
